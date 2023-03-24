@@ -1,0 +1,19 @@
+<script src="https://cdn.bootcdn.net/ajax/libs/axios/1.3.4/axios.min.js"></script>
+<script>
+  async function login() {
+    try {
+      const { data } = await axios({
+        method: 'post',
+        url:'http://yun.jfkj.xyz/uyapi/uyyun_login.php',
+        data: {
+          user: '3487297072',
+          pass: '1234567'
+        }
+      })
+      console.log(data);
+    } catch (error) {
+      console.error(error);
+    }
+  }
+  login();
+</script>

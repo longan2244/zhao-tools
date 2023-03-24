@@ -1,0 +1,20 @@
+{
+  "name": "zhao-tools",
+  "version": "1.0.2",
+  "description": "一款常用业务tools工具包 - 包括JSONP文本转JSON html标签按需截取 时间处理 字符处理 url解析 按需匹配字符串 replaceAll方法 等等.......",
+  "keywords": [
+    "工具",
+    "util",
+    "tools",
+    "工具包",
+    "JSONP格式转JSON格式",
+    "Jsonptojson",
+    "更多"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "longans",
+  "license": "ISC"
+}
