@@ -1,4 +1,6 @@
 ## Classes
+## npm包地址
+https://www.npmjs.com/package/zhao-tools
 ## 使用实例
 ```js
 const ztools = require('zhao-tools');
